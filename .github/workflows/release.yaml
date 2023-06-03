@@ -9,10 +9,9 @@ jobs:
     name: Create Release and Changelog
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
       actions: write
       packages: write
-      repository-projects: write
 
     steps:
       - uses: actions/checkout@v3
